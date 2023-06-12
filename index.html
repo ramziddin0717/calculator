@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1> calkulator
+   </h1>
+   <form name="calkulator">
+    <table style="display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;">
+        <tr>
+            <td colspan="4">
+           <input type="text" name="display" id="display" disabled placeholder="0">
+            </td>
+        </tr>
+        <tr style="display: flex; align-items: center; justify-content: center;">
+            <td>
+    <input type="button" class="btn" name="seven" value="7" onclick="calkulator.display.value += '7'">
+    <input type="button" class="btn" name="eight" value="8" onclick="calkulator.display.value += '8'">
+    <input type="button" class="btn" name="nine" value="9" onclick="calkulator.display.value += '8'">
+    <input type="button" class="btn" name="times" class="operator" value="x" onclick="calkulator.display.value += '*'">
+            </td>
+        </tr>
+        <tr style="display: flex; align-items: center; justify-content: center; ">
+ <td>
+                <input type="button" class="btn" name="four" value="4" onclick="calkulator.display.value += '4'">
+                <input type="button" class="btn" name="five" value="5" onclick="calkulator.display.value += '5'">
+                <input type="button" class="btn" name="six" value="6" onclick="calkulator.display.value += '6'">
+                <input type="button" class="btn" name="minus" class="operator" value="-" onclick="calkulator.display.value += '-'">
+                        </td>
+        </tr>
+           <tr style="display: flex; align-items: center; justify-content: center; ">
+             <td>
+             <input type="button" class="btn" name="one" value="1" onclick="calkulator.display.value += '1'">
+            <input type="button" class="btn" name="two" value="2" onclick="calkulator.display.value += '2'">
+        <input type="button" class="btn" name="tree" value="3" onclick="calkulator.display.value += '3'">
+        <input type="button" class="btn" name="plus" class="operator" value="+" onclick="calkulator.display.value += '+'">
+                                    </td>
+           </tr>
+           <tr style="display: flex; align-items: center; justify-content: center; ">           
+            <td>
+              <input type="button" class="btn" name="clear" value="c" onclick="calkulator.display.value = ''">
+            <input type="button" class="btn" name="zero" value="0" onclick="calkulator.display.value += '0'">
+            <input type="button" class="btn" name="doit" value="=" onclick="calkulator.display.value = eval(calkulator.display.value)">
+                <input type="button" class="btn" name="div" class="operator" value="/" onclick="calkulator.display.value += '/'">
+             </td>
+
+        </tr>
+    </table>
+   </form>
+</body>
+</html>

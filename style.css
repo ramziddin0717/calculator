@@ -1,0 +1,43 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+
+   
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 3em;
+}
+form{
+    margin-left: 35vw;
+    margin-top: 10vh;
+    width: 250px;
+    padding: 20px;
+
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 2px rgba( 148, 148, 148, .1);
+    background: rgba(4, 196, 255, 0.354);
+background: linear-gradient(90deg,green(2,0,36,1) 0%, red (215,251,24,1) 0% yellow(0,212,255,1) 100%);
+}
+tabel {
+    padding: 5% 10px;
+}
+#display{
+    margin: 15px 10px;
+    padding: 10px 4px;
+    font-size: 28px;
+    width: 200px;
+  
+}
+button{
+ margin: 10px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    background:  red (2,0,36);
+    background: linear-gradient(90deg, green(2,0,36,1) 0%,  red (215,251,24,1) 0%,  yellow (0,212,255,1) 100%);
+}
